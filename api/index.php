@@ -17,11 +17,11 @@ error_reporting(E_ALL);
         content="Ellis Toy Store is Nigeria's leading toy store with an amazing array of great quality toys for kids of all age range.">
     <meta name="keywords"
         content="Kiddies, Toys, Toy Store, Online Toy Store, Online Store, Toys for Kids, Safe Toys">
-    <?php include '/../config/pre-head.php'; ?>
+    <?php include __DIR__ . '/../config/pre-head.php'; ?>
 </head>
 
 <body>
-    <?php include '/../config/header.php'; ?>
+    <?php include __DIR__ . '/../config/header.php'; ?>
 
     <section class="hero-section landing-hero primary-gradient-blur-bg w-100 d-flex overflow-hidden webQ_ani" data-animate="scale-up-center">
         <div class="d-flex w-100 p-0 flex-row card-2 flex-wrap justify-content-start align-items-center bring-forward">
