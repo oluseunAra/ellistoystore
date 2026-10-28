@@ -212,15 +212,40 @@ if (document.querySelector('.webQ_ani')) {
   }
 }
 
-if (document.querySelector('.swirlCard')) {
-  let swirlCards = document.querySelectorAll('.swirlCard');
-  //get all page elements with animation class
-  const uiElems = Array.from(swirlCards);
-  for (let key in uiElems) {
-    // console.log(swirlCards[key]);
-    observer.observe(swirlCards[key]);
+
+const handleSwirls = (entries, observer) => {
+  entries.forEach(entry => {
+    let targetElement = entry.target;
+    // console.log(targetElement);
+    if (entry.isIntersecting) {
+      // console.log('entry intersection')
+      entry.target.classList.add('is-in-view');
+      observer.unobserve(entry.target); // Runs once and stops watching
+    }
+  });
+};
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.2 // Fires when 20% of the card is visible
+  };
+
+  const newObserver = new IntersectionObserver(handleSwirls, options);
+
+  if (document.querySelector('.swirlCard')) {
+    let swirls = document.querySelectorAll('.swirlCard');
+    //get all page elements with animation class
+    const swirlElems = Array.from(swirls);
+    for (let key in swirlElems) {
+      // console.log(swirls[key]);
+      newObserver.observe(swirls[key], observerOptions);
+    }
   }
-}
+});
 
 
 $(function () {

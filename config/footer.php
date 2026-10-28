@@ -65,6 +65,8 @@
             <a href="about" class="sm-font">About us</a>
         </div>
     </div>
+
+    <?php include  'config/swirl-box.php' ?>
 </footer>
 
 <div class="scrollTopCont primary-gradient-blur-bg">

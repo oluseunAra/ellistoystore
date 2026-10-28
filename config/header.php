@@ -6,7 +6,7 @@
                         <div class="ticker-scroll">
                             <div class="ticker-item">New arrivals are in, shop now for massive discounts</div>
                             <div class="ticker-item">Our Christmas sale season is starting soon!, watch this space</div>
-                            <div class="ticker-item">Now open: visit us at our new Maitama location</div>
+                            <div class="ticker-item">Now open: visit us at our new Mabushi location</div>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                     </a>
                 </div>
                 <div class="d-flex col-4 flex-row justify-content-center align-items-center">
-                    <a href="index" class="d-flex flex-row flex-wrap no-hover justify-content-start align-items-center">
+                    <a href="index" class="logo d-flex flex-row flex-wrap no-hover justify-content-start align-items-center">
                         <img src="../assets/media-assets/img/logo.PNG" alt="Ellis Toy Store"
                             class="d-flex logo w-auto m-auto">
                     </a>
