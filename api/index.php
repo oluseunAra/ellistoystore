@@ -1357,11 +1357,12 @@ error_reporting(E_ALL);
             <img src="/assets/media-assets/img/logo.PNG" alt="Ellis Toy Store"
                 class="d-flex logo w-auto m-auto black_white">
         </div>
-        <?php include __DIR__ . '/../config/icon-group-big.php'; ?>
-        <?php include __DIR__ . '/../config/footer.php'; ?>
-        <?php include __DIR__ . '/../config/mobile-menu.php'; ?>
-        <?php include __DIR__ . '/../config/cart.php'; ?>
-        <?php include __DIR__ . '/../config/whatsapp-connect.php'; ?>
+    </section>
+    <?php include __DIR__ . '/../config/icon-group-big.php'; ?>
+    <?php include __DIR__ . '/../config/footer.php'; ?>
+    <?php include __DIR__ . '/../config/mobile-menu.php'; ?>
+    <?php include __DIR__ . '/../config/cart.php'; ?>
+    <?php include __DIR__ . '/../config/whatsapp-connect.php'; ?>
 </body>
 
 </html>
