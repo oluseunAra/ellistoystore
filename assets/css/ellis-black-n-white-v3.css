@@ -5265,6 +5265,17 @@ div.cart-item .product-action-list {
     justify-content: center;
     margin: auto;
   }
+
+  .webQ_menu,
+  div.webQ_menu,
+  .ellis-cart,
+  div.ellis-cart {
+    width: 100%;
+  }
+  .ellis-cart.active,
+  div.ellis-cart.active {
+    right: 0%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -5316,6 +5327,10 @@ div.cart-item .product-action-list {
   .lg-sliderBox-2 {
     width: 45vw;
     flex-shrink: 0;
+  }
+  .whatsapp-connect,
+  div.whatsapp-connect {
+    width: 70%;
   }
 }
 
