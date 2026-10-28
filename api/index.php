@@ -1325,7 +1325,6 @@ error_reporting(E_ALL);
 
     <section class="dark d-flex pt-5 pb-5 overflow-hidden">
         <div class="container"></div>
-        <?php include __DIR__ . '/../config/swirl-box.php' ?>
     </section>
     <?php include __DIR__ . '/../config/footer.php'; ?>
     <?php include __DIR__ . '/../config/mobile-menu.php'; ?>
