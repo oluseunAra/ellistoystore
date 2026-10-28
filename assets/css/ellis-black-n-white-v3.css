@@ -799,16 +799,17 @@ img.black_white {
   margin: 0 auto;
   display: flex;
   z-index: 0;
-  color: var(--primary-color);
-  font-size: var(--reg-font);
+  color: rgba(252, 242, 252, 0.23);
+  font-size: var(--md-font);
   opacity: 0.25;
   flex-wrap: wrap;
   padding: 0;
-  gap: 5rem;
+  gap: 8rem;
+  transform: rotate(-25deg);
 }
 
 .ui-icons-large-page-elem-container span {
-  font-size: var(--x-lg-font);
+  font-size: 5rem;
   display: flex;
   flex: 0 0 auto;
   margin: auto;
@@ -3569,6 +3570,10 @@ div.testimonialCard {
   opacity: 0.85;
   pointer-events: none;
   z-index: 0;
+}
+
+/* 1. Only start drifting once the card is visible */
+.swirlCard.is-in-view .swirl {
   animation: drift 8s ease-in-out 3.5s infinite alternate;
 }
 
@@ -3581,17 +3586,23 @@ div.testimonialCard {
   }
 }
 
+/* 2. Set the baseline hidden state for the paths */
 .line {
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
   opacity: 0;
+}
+
+/* 3. Bind your custom drawing animations to the in-view state */
+.swirlCard.is-in-view .line {
   animation: draw 2.4s cubic-bezier(0.65, 0, 0.35, 1) forwards;
 }
 
-.line-1 {
+.swirlCard.is-in-view .line-1 {
   animation-delay: 0.2s;
 }
-.line-2 {
+
+.swirlCard.is-in-view .line-2 {
   animation-delay: 0.5s;
   animation-duration: 3s;
 }
@@ -3610,10 +3621,11 @@ div.testimonialCard {
   }
 }
 
+/* 4. Keep your excellent accessibility safety net intact */
 @media (prefers-reduced-motion: reduce) {
   .line,
   .swirl {
-    animation: none;
+    animation: none !important;
     stroke-dashoffset: 0;
     opacity: 1;
   }

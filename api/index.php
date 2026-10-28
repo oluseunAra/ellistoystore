@@ -1322,14 +1322,46 @@ error_reporting(E_ALL);
         </div>
     </section>
 
-
     <section class="dark d-flex pt-5 pb-5 overflow-hidden">
-        <div class="container"></div>
-    </section>
-    <?php include __DIR__ . '/../config/footer.php'; ?>
-    <?php include __DIR__ . '/../config/mobile-menu.php'; ?>
-    <?php include __DIR__ . '/../config/cart.php'; ?>
-    <?php include __DIR__ . '/../config/whatsapp-connect.php'; ?>
+        <div class="container d-flex flex-column gap-5 mt-5 mb-5 justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center col-12 col-md-6 flex-wrap">
+                <h4 class="display-6 text-center mb-0">Your one-stop spot for Kids Toys and more</h4>
+            </div>
+            <div class="col_4by4 w-100">
+                <div class="grid-item">
+                    <div class="d-flex flex-column w-100 gap-1 jusitfy-content-start trans-bg micro-card full-radius  p-5 align-items-start">
+                        <i class="bi bi-truck display-6 m-auto mb-0 mt-0 ms-0 text-gradient accent-text-gradient"></i>
+                        <p class="display-7 mb-0 text-start">Fast Shipping & Delivery</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="d-flex flex-column w-100 gap-1 jusitfy-content-start trans-bg micro-card full-radius p-5 align-items-start">
+                        <i class="bi bi-person display-6 m-auto mb-0 mt-0 ms-0 text-gradient accent-text-gradient"></i>
+                        <p class="display-7 mb-0 text-start">Excellent Customer Service</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="d-flex flex-column w-100 gap-1 jusitfy-content-start trans-bg micro-card full-radius p-5 align-items-start">
+                        <i class="bi bi-palette display-6 m-auto mb-0 mt-0 ms-0 text-gradient accent-text-gradient"></i>
+                        <p class="display-7 mb-0 text-start">The Latest Toys</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="d-flex flex-column w-100 gap-1 jusitfy-content-start trans-bg micro-card full-radius p-5 align-items-start">
+                        <i class="bi bi-star display-6 m-auto mb-0 mt-0 ms-0 text-gradient accent-text-gradient"></i>
+                        <p class="display-7 mb-0 text-start">5 Star Reputation</p>
+                    </div>
+                </div>
+            </div>
+
+            <img src="/assets/media-assets/img/logo.PNG" alt="Ellis Toy Store"
+                class="d-flex logo w-auto m-auto black_white">
+        </div>
+        <?php include __DIR__ . '/../config/icon-group-big.php'; ?>
+        <?php include __DIR__ . '/../config/footer.php'; ?>
+        <?php include __DIR__ . '/../config/mobile-menu.php'; ?>
+        <?php include __DIR__ . '/../config/cart.php'; ?>
+        <?php include __DIR__ . '/../config/whatsapp-connect.php'; ?>
 </body>
 
 </html>
