@@ -339,7 +339,7 @@ error_reporting(E_ALL);
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
                             <img src="/assets/media-assets/img/babies-category.png" alt="Electric Big Toys Cars & bikes" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '/../config/icon-group.php' ?>
+                        <?php include __DIR__ . '/../config/icon-group.php' ?>
                     </div>
                 </div>
 
@@ -354,7 +354,7 @@ error_reporting(E_ALL);
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
                             <img src="/assets/media-assets/img/girl-category-2.png" alt="Montesorri Toys" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '/../config/icon-group.php' ?>
+                        <?php include __DIR__ . '/../config/icon-group.php' ?>
                     </div>
                 </div>
 
@@ -369,7 +369,7 @@ error_reporting(E_ALL);
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
                             <img src="/assets/media-assets/img/excited-kid.png" alt="Books" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '/../config/icon-group.php' ?>
+                        <?php include __DIR__ . '/../config/icon-group.php' ?>
                     </div>
                 </div>
 
@@ -384,7 +384,7 @@ error_reporting(E_ALL);
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
                             <img src="/assets/media-assets/img/young-boy.png" alt="Educational Resources" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '/../config/icon-group.php' ?>
+                        <?php include __DIR__ . '/../config/icon-group.php' ?>
                     </div>
                 </div>
 
@@ -399,7 +399,7 @@ error_reporting(E_ALL);
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
                             <img src="/assets/media-assets/img/cute-girl-in-glasses.png" alt="Games & Puzzles" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '/../config/icon-group.php' ?>
+                        <?php include __DIR__ . '/../config/icon-group.php' ?>
                     </div>
                 </div>
 
@@ -414,12 +414,12 @@ error_reporting(E_ALL);
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
                             <img src="/assets/media-assets/img/happy-teen.png" alt="Building sets & Blocks" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '/../config/icon-group.php' ?>
+                        <?php include __DIR__ . '/../config/icon-group.php' ?>
                     </div>
                 </div>
             </div>
         </div>
-        <?php include '/../config/swirl-box.php' ?>
+        <?php include __DIR__ . '/../config/swirl-box.php' ?>
     </section>
 
     <section class="d-flex pt-5 pb-5 flex-column">
@@ -754,7 +754,7 @@ error_reporting(E_ALL);
                             <div class="d-flex w-100 h-100 justify-content-end bring-forward p-5 pb-0 pe-0 align-items-end">
                                 <img src="/assets/media-assets/img/babies-category.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <?php include '/../config/icon-group.php' ?>
+                            <?php include __DIR__ . '/../config/icon-group.php' ?>
                         </div>
                     </div>
 
@@ -769,7 +769,7 @@ error_reporting(E_ALL);
                             <div class="d-flex w-100 h-100 justify-content-end bring-forward p-5 pb-0 pe-0 align-items-end">
                                 <img src="/assets/media-assets/img/girl-category-2.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <?php include '/../config/icon-group.php' ?>
+                            <?php include __DIR__ . '/../config/icon-group.php' ?>
                         </div>
                     </div>
 
@@ -784,7 +784,7 @@ error_reporting(E_ALL);
                             <div class="d-flex w-100 h-100 justify-content-end bring-forward p-5 pb-0 pe-0 align-items-end">
                                 <img src="/assets/media-assets/img/excited-kid.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <?php include '/../config/icon-group.php' ?>
+                            <?php include __DIR__ . '/../config/icon-group.php' ?>
                         </div>
                     </div>
 
@@ -799,7 +799,7 @@ error_reporting(E_ALL);
                             <div class="d-flex w-100 h-100 justify-content-end bring-forward p-5 pb-0 pe-0 align-items-end">
                                 <img src="/assets/media-assets/img/young-boy.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <?php include '/../config/icon-group.php' ?>
+                            <?php include __DIR__ . '/../config/icon-group.php' ?>
                         </div>
                     </div>
 
@@ -1063,7 +1063,7 @@ error_reporting(E_ALL);
                 </div>
             </div>
         </div>
-        <?php include '/../config/swirl-box.php' ?>
+        <?php include __DIR__ . '/../config/swirl-box.php' ?>
     </section>
 
 
@@ -1298,10 +1298,10 @@ error_reporting(E_ALL);
     <section class="accent d-flex pt-5 pb-5 overflow-hidden">
         <div class="container"></div>
     </section>
-    <?php include '/../config/footer.php'; ?>
-    <?php include '/../config/mobile-menu.php'; ?>
-    <?php include '/../config/cart.php'; ?>
-    <?php include '/../config/whatsapp-connect.php'; ?>
+    <?php include __DIR__ . '/../config/footer.php'; ?>
+    <?php include __DIR__ . '/../config/mobile-menu.php'; ?>
+    <?php include __DIR__ . '/../config/cart.php'; ?>
+    <?php include __DIR__ . '/../config/whatsapp-connect.php'; ?>
 </body>
 
 </html>
