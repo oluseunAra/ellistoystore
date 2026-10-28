@@ -29,7 +29,7 @@
                 </div>
                 <div class="d-flex col-4 flex-row justify-content-center align-items-center">
                     <a href="index" class="d-flex flex-row flex-wrap no-hover justify-content-start align-items-center">
-                        <img src="assets/media-assets/img/logo.PNG" alt="Ellis Toy Store"
+                        <img src="../assets/media-assets/img/logo.PNG" alt="Ellis Toy Store"
                             class="d-flex logo w-auto m-auto">
                     </a>
                 </div>
