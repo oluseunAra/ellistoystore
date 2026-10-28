@@ -17,11 +17,11 @@ error_reporting(E_ALL);
         content="Ellis Toy Store is Nigeria's leading toy store with an amazing array of great quality toys for kids of all age range.">
     <meta name="keywords"
         content="Kiddies, Toys, Toy Store, Online Toy Store, Online Store, Toys for Kids, Safe Toys">
-    <?php include './config/pre-head.php'; ?>
+    <?php include '/../config/pre-head.php'; ?>
 </head>
 
 <body>
-    <?php include './config/header.php'; ?>
+    <?php include '/../config/header.php'; ?>
 
     <section class="hero-section landing-hero primary-gradient-blur-bg w-100 d-flex overflow-hidden webQ_ani" data-animate="scale-up-center">
         <div class="d-flex w-100 p-0 flex-row card-2 flex-wrap justify-content-start align-items-center bring-forward">
@@ -46,12 +46,12 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column w-100 position-absolute top-0 right-0 send-backward m-auto justify-content-center align-items-center card-2 p-0">
                             <picture class="w-100 h-100 object-fit-cover">
                                 <source media="(min-width: 770px)"
-                                    srcset="../assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif">
+                                    srcset="/../assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif">
                                 <source media="(min-width: 451px)"
-                                    srcset="../assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif">
+                                    srcset="/../assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif">
                                 <source media="(max-width: 450px)"
-                                    srcset="../assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif">
-                                <img src="../assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif"
+                                    srcset="/../assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif">
+                                <img src="/../assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif"
                                     alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
                             </picture>
                         </div>
@@ -67,12 +67,12 @@ error_reporting(E_ALL);
                 <div class="background-container card border-0">
                     <picture class="w-100 h-100 object-fit-cover">
                         <source media="(min-width: 770px)"
-                            srcset="../assets/media-assets/img/toybikes-cars.jpg">
+                            srcset="/../assets/media-assets/img/toybikes-cars.jpg">
                         <source media="(min-width: 451px)"
-                            srcset="../assets/media-assets/img/toybikes-cars.jpg">
+                            srcset="/../assets/media-assets/img/toybikes-cars.jpg">
                         <source media="(max-width: 450px)"
-                            srcset="../assets/media-assets/img/toybikes-cars.jpg">
-                        <img src="../assets/media-assets/img/toybikes-cars.jpg"
+                            srcset="/../assets/media-assets/img/toybikes-cars.jpg">
+                        <img src="/../assets/media-assets/img/toybikes-cars.jpg"
                             alt="Ellis Toys Store NG" class="w-100 h-100 object-fit-cover">
                     </picture>
                 </div>
@@ -112,7 +112,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -135,7 +135,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/greenandcream-backpack-2-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/greenandcream-backpack-2-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -158,7 +158,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/Childrens-Pretend-Play-Kitchen-set-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/Childrens-Pretend-Play-Kitchen-set-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -181,7 +181,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/Avengers-Hero-Warrior-Spider-Man-Action-Figure-600x800-2.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/Avengers-Hero-Warrior-Spider-Man-Action-Figure-600x800-2.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -204,7 +204,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -227,7 +227,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -250,7 +250,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -273,7 +273,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -296,7 +296,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -337,9 +337,9 @@ error_reporting(E_ALL);
                     </div>
                     <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden accent">
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
-                            <img src="../assets/media-assets/img/babies-category.png" alt="Electric Big Toys Cars & bikes" class="w-100 h-100 object-fit-cover">
+                            <img src="/../assets/media-assets/img/babies-category.png" alt="Electric Big Toys Cars & bikes" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '../config/icon-group.php' ?>
+                        <?php include '/../config/icon-group.php' ?>
                     </div>
                 </div>
 
@@ -352,9 +352,9 @@ error_reporting(E_ALL);
                     </div>
                     <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden secondary">
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
-                            <img src="../assets/media-assets/img/girl-category-2.png" alt="Montesorri Toys" class="w-100 h-100 object-fit-cover">
+                            <img src="/../assets/media-assets/img/girl-category-2.png" alt="Montesorri Toys" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '../config/icon-group.php' ?>
+                        <?php include '/../config/icon-group.php' ?>
                     </div>
                 </div>
 
@@ -367,9 +367,9 @@ error_reporting(E_ALL);
                     </div>
                     <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden alternate">
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
-                            <img src="../assets/media-assets/img/excited-kid.png" alt="Books" class="w-100 h-100 object-fit-cover">
+                            <img src="/../assets/media-assets/img/excited-kid.png" alt="Books" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '../config/icon-group.php' ?>
+                        <?php include '/../config/icon-group.php' ?>
                     </div>
                 </div>
 
@@ -382,9 +382,9 @@ error_reporting(E_ALL);
                     </div>
                     <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden tertiary">
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
-                            <img src="../assets/media-assets/img/young-boy.png" alt="Educational Resources" class="w-100 h-100 object-fit-cover">
+                            <img src="/../assets/media-assets/img/young-boy.png" alt="Educational Resources" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '../config/icon-group.php' ?>
+                        <?php include '/../config/icon-group.php' ?>
                     </div>
                 </div>
 
@@ -397,9 +397,9 @@ error_reporting(E_ALL);
                     </div>
                     <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden primary-gradient-blur-bg">
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
-                            <img src="../assets/media-assets/img/cute-girl-in-glasses.png" alt="Games & Puzzles" class="w-100 h-100 object-fit-cover">
+                            <img src="/../assets/media-assets/img/cute-girl-in-glasses.png" alt="Games & Puzzles" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '../config/icon-group.php' ?>
+                        <?php include '/../config/icon-group.php' ?>
                     </div>
                 </div>
 
@@ -412,14 +412,14 @@ error_reporting(E_ALL);
                     </div>
                     <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden accent">
                         <div class="d-flex col-6 h-100 justify-content-end bring-forward p-0 align-items-end">
-                            <img src="../assets/media-assets/img/happy-teen.png" alt="Building sets & Blocks" class="w-100 h-100 object-fit-cover">
+                            <img src="/../assets/media-assets/img/happy-teen.png" alt="Building sets & Blocks" class="w-100 h-100 object-fit-cover">
                         </div>
-                        <?php include '../config/icon-group.php' ?>
+                        <?php include '/../config/icon-group.php' ?>
                     </div>
                 </div>
             </div>
         </div>
-        <?php include '../config/swirl-box.php' ?>
+        <?php include '/../config/swirl-box.php' ?>
     </section>
 
     <section class="d-flex pt-5 pb-5 flex-column">
@@ -435,7 +435,7 @@ error_reporting(E_ALL);
                                     <a href="#" class="btn primary m-auto ms-0 mt-0 fw-bold">Show now</a>
                                 </div>
                                 <div class="d-flex send-backward w-100 flex-column overflow-hidden">
-                                    <img src="../assets/media-assets/img/toy-box.webp" alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
+                                    <img src="/../assets/media-assets/img/toy-box.webp" alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
                                 </div>
                             </div>
                         </div>
@@ -449,7 +449,7 @@ error_reporting(E_ALL);
                                     <a href="#" class="btn primary m-auto ms-0 mt-0 fw-bold">Show now</a>
                                 </div>
                                 <div class="d-flex send-backward w-100 flex-column overflow-hidden">
-                                    <img src="../assets/media-assets/img/musicals.webp" alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
+                                    <img src="/../assets/media-assets/img/musicals.webp" alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
                                 </div>
                             </div>
                         </div>
@@ -463,7 +463,7 @@ error_reporting(E_ALL);
                                     <a href="#" class="btn primary m-auto ms-0 mt-0 fw-bold">Show now</a>
                                 </div>
                                 <div class="d-flex send-backward w-100 flex-column overflow-hidden">
-                                    <img src="../assets/media-assets/img/power-bike.png" alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
+                                    <img src="/../assets/media-assets/img/power-bike.png" alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
                                 </div>
                             </div>
                         </div>
@@ -496,7 +496,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -519,7 +519,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/greenandcream-backpack-2-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/greenandcream-backpack-2-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -542,7 +542,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/Childrens-Pretend-Play-Kitchen-set-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/Childrens-Pretend-Play-Kitchen-set-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -565,7 +565,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/Avengers-Hero-Warrior-Spider-Man-Action-Figure-600x800-2.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/Avengers-Hero-Warrior-Spider-Man-Action-Figure-600x800-2.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -588,7 +588,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -611,7 +611,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -634,7 +634,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -657,7 +657,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -680,7 +680,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -706,12 +706,12 @@ error_reporting(E_ALL);
                 <div class="background-container card border-0">
                     <picture class="w-100 h-100 object-fit-cover">
                         <source media="(min-width: 770px)"
-                            srcset="../assets/media-assets/img/pretend play-toys.jpg">
+                            srcset="/../assets/media-assets/img/pretend play-toys.jpg">
                         <source media="(min-width: 451px)"
-                            srcset="../assets/media-assets/img/pretend play-toys.jpg">
+                            srcset="/../assets/media-assets/img/pretend play-toys.jpg">
                         <source media="(max-width: 450px)"
-                            srcset="../assets/media-assets/img/pretend play-toys.jpg">
-                        <img src="../assets/media-assets/img/pretend play-toys.jpg"
+                            srcset="/../assets/media-assets/img/pretend play-toys.jpg">
+                        <img src="/../assets/media-assets/img/pretend play-toys.jpg"
                             alt="Ellis Toys Store NG" class="w-100 h-100 object-fit-cover">
                     </picture>
                 </div>
@@ -752,9 +752,9 @@ error_reporting(E_ALL);
                         </div>
                         <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden accent">
                             <div class="d-flex w-100 h-100 justify-content-end bring-forward p-5 pb-0 pe-0 align-items-end">
-                                <img src="../assets/media-assets/img/babies-category.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
+                                <img src="/../assets/media-assets/img/babies-category.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <?php include '../config/icon-group.php' ?>
+                            <?php include '/../config/icon-group.php' ?>
                         </div>
                     </div>
 
@@ -767,9 +767,9 @@ error_reporting(E_ALL);
                         </div>
                         <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden secondary">
                             <div class="d-flex w-100 h-100 justify-content-end bring-forward p-5 pb-0 pe-0 align-items-end">
-                                <img src="../assets/media-assets/img/girl-category-2.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
+                                <img src="/../assets/media-assets/img/girl-category-2.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <?php include '../config/icon-group.php' ?>
+                            <?php include '/../config/icon-group.php' ?>
                         </div>
                     </div>
 
@@ -782,9 +782,9 @@ error_reporting(E_ALL);
                         </div>
                         <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden alternate">
                             <div class="d-flex w-100 h-100 justify-content-end bring-forward p-5 pb-0 pe-0 align-items-end">
-                                <img src="../assets/media-assets/img/excited-kid.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
+                                <img src="/../assets/media-assets/img/excited-kid.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <?php include '../config/icon-group.php' ?>
+                            <?php include '/../config/icon-group.php' ?>
                         </div>
                     </div>
 
@@ -797,9 +797,9 @@ error_reporting(E_ALL);
                         </div>
                         <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden tertiary">
                             <div class="d-flex w-100 h-100 justify-content-end bring-forward p-5 pb-0 pe-0 align-items-end">
-                                <img src="../assets/media-assets/img/young-boy.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
+                                <img src="/../assets/media-assets/img/young-boy.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <?php include '../config/icon-group.php' ?>
+                            <?php include '/../config/icon-group.php' ?>
                         </div>
                     </div>
 
@@ -812,7 +812,7 @@ error_reporting(E_ALL);
                         </div>
                         <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden primary-gradient-blur-bg">
                             <div class="d-flex w-100 h-100 justify-content-end bring-forward p-5 pb-0 pe-0 align-items-end">
-                                <img src="../assets/media-assets/img/cute-girl-in-glasses.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
+                                <img src="/../assets/media-assets/img/cute-girl-in-glasses.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
                             </div>
                             <div class="ui-icons-page-elem-container send-backward">
                                 <span class="material-symbols-outlined">
@@ -941,7 +941,7 @@ error_reporting(E_ALL);
                         </div>
                         <div class="position-absolute w-100 h-100 top-0 left-0 send-backward p-0 justify-content-end align-items-end d-flex full-radius overflow-hidden accent-gradient-blur-bg">
                             <div class="d-flex w-100 h-100 justify-content-end bring-forward p-5 pb-0 pe-0 align-items-end">
-                                <img src="../assets/media-assets/img/happy-teen.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
+                                <img src="/../assets/media-assets/img/happy-teen.png" alt="Kate Henshaw" class="w-100 h-100 object-fit-cover">
                             </div>
                             <div class="ui-icons-page-elem-container send-backward">
                                 <span class="material-symbols-outlined">
@@ -1063,7 +1063,7 @@ error_reporting(E_ALL);
                 </div>
             </div>
         </div>
-        <?php include '../config/swirl-box.php' ?>
+        <?php include '/../config/swirl-box.php' ?>
     </section>
 
 
@@ -1090,7 +1090,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -1113,7 +1113,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/greenandcream-backpack-2-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/greenandcream-backpack-2-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -1136,7 +1136,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/Childrens-Pretend-Play-Kitchen-set-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/Childrens-Pretend-Play-Kitchen-set-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -1159,7 +1159,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/Avengers-Hero-Warrior-Spider-Man-Action-Figure-600x800-2.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/Avengers-Hero-Warrior-Spider-Man-Action-Figure-600x800-2.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -1182,7 +1182,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -1205,7 +1205,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -1228,7 +1228,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -1251,7 +1251,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -1274,7 +1274,7 @@ error_reporting(E_ALL);
                                     <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
-                                    <img src="../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
+                                    <img src="/../assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
                                 </div>
                                 <div class="d-flex flex-column p-0 w-100 justify-content-center align-items-center gap-1 overflow-hidden">
                                     <a href="#">
@@ -1298,10 +1298,10 @@ error_reporting(E_ALL);
     <section class="accent d-flex pt-5 pb-5 overflow-hidden">
         <div class="container"></div>
     </section>
-    <?php include '../config/footer.php'; ?>
-    <?php include '../config/mobile-menu.php'; ?>
-    <?php include '../config/cart.php'; ?>
-    <?php include '../config/whatsapp-connect.php'; ?>
+    <?php include '/../config/footer.php'; ?>
+    <?php include '/../config/mobile-menu.php'; ?>
+    <?php include '/../config/cart.php'; ?>
+    <?php include '/../config/whatsapp-connect.php'; ?>
 </body>
 
 </html>
