@@ -34,11 +34,11 @@ error_reporting(E_ALL);
                             <div class="container d-flex flex-column h-100 justify-content-center align-items-center">
                                 <div class="d-flex col-12 col-md-8 h-100 justify-content-center align-items-center m-auto">
                                     <div class="d-flex w-100 card-1 flex-column p-0 m-0 caption-container justify-content-end mt-5 pt-5">
-                                        <div class="d-flex flex-column m-auto mt-0 mb-0 justify-content-center align-items-center p-0 gap-3">
+                                        <!--div class="d-flex flex-column m-auto mt-0 mb-0 justify-content-center align-items-center p-0 gap-3">
                                             <h3 class="display-4 text-center mb-0 fw-bolder">Fun just got better</h3>
                                             <p class="mb-0 text-center reg-font fw-bold">Outdoors or Indoors, for fun or learning, we have it all! <br /> Get top quality toys for your kids now. We deliver nation wide.</p>
                                             <a href="#" class="btn primary m-auto mb-0 fw-bold">Shop now</a>
-                                        </div>
+                                        </div-->
                                     </div>
                                 </div>
                             </div>
@@ -52,6 +52,34 @@ error_reporting(E_ALL);
                                 <source media="(max-width: 450px)"
                                     srcset="/assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif">
                                 <img src="/assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif"
+                                    alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
+                            </picture>
+                        </div>
+                    </div>
+                    <!-- Slide 2: Ellis Toy Store -->
+                    <div class="carousel-item active overflow-hidden">
+                        <div class="d-flex flex-column w-100 m-auto ms-0 bring-forward justify-content-center align-items-center h-100 top-to-bottom-trans-bg">
+                            <div class="container d-flex flex-column h-100 justify-content-center align-items-center">
+                                <div class="d-flex col-12 col-md-8 h-100 justify-content-center align-items-center m-auto">
+                                    <div class="d-flex w-100 card-1 flex-column p-0 m-0 caption-container justify-content-end mt-5 pt-5">
+                                        <!--div class="d-flex flex-column m-auto mt-0 mb-0 justify-content-center align-items-center p-0 gap-3">
+                                            <h3 class="display-4 text-center mb-0 fw-bolder">Fun just got better</h3>
+                                            <p class="mb-0 text-center reg-font fw-bold">Outdoors or Indoors, for fun or learning, we have it all! <br /> Get top quality toys for your kids now. We deliver nation wide.</p>
+                                            <a href="#" class="btn primary m-auto mb-0 fw-bold">Shop now</a>
+                                        </div-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column w-100 position-absolute top-0 right-0 send-backward m-auto justify-content-center align-items-center card-2 p-0">
+                            <picture class="w-100 h-100 object-fit-cover">
+                                <source media="(min-width: 770px)"
+                                    srcset="/assets/media-assets/img/fluffy.jpg">
+                                <source media="(min-width: 451px)"
+                                    srcset="/assets/media-assets/img/fluffy.jpg">
+                                <source media="(max-width: 450px)"
+                                    srcset="/assets/media-assets/img/fluffy.jpg">
+                                <img src="/assets/media-assets/img/fluffy.jpg"
                                     alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
                             </picture>
                         </div>
@@ -107,9 +135,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 newTrendingSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -130,9 +158,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 newTrendingSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/greenandcream-backpack-2-600x800.jpeg" alt="">
@@ -153,9 +181,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 newTrendingSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/Childrens-Pretend-Play-Kitchen-set-600x800.jpeg" alt="">
@@ -176,9 +204,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 newTrendingSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/Avengers-Hero-Warrior-Spider-Man-Action-Figure-600x800-2.jpeg" alt="">
@@ -199,9 +227,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 newTrendingSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -222,9 +250,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 newTrendingSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -245,9 +273,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 newTrendingSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -268,9 +296,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 newTrendingSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -291,9 +319,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 dealsSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -491,9 +519,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 topSellerSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -514,9 +542,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 topSellerSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/greenandcream-backpack-2-600x800.jpeg" alt="">
@@ -537,9 +565,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 topSellerSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/Childrens-Pretend-Play-Kitchen-set-600x800.jpeg" alt="">
@@ -560,9 +588,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 topSellerSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/Avengers-Hero-Warrior-Spider-Man-Action-Figure-600x800-2.jpeg" alt="">
@@ -583,9 +611,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 topSellerSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -606,9 +634,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 topSellerSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -629,9 +657,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 topSellerSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -652,9 +680,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 topSellerSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -675,9 +703,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 topSellerSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -1085,9 +1113,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 dealsSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -1108,9 +1136,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 dealsSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/greenandcream-backpack-2-600x800.jpeg" alt="">
@@ -1131,9 +1159,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 dealsSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/Childrens-Pretend-Play-Kitchen-set-600x800.jpeg" alt="">
@@ -1154,9 +1182,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 dealsSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/Avengers-Hero-Warrior-Spider-Man-Action-Figure-600x800-2.jpeg" alt="">
@@ -1177,9 +1205,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 dealsSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -1200,9 +1228,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 dealsSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -1223,9 +1251,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 dealsSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -1246,9 +1274,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 dealsSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -1269,9 +1297,9 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column overflow-hidden lg-sliderBox-2 dealsSlider card-1 d-1 p-0 cart-item anchor-hover-view">
                             <div class=" d-flex flex-column justify-content-between align-items-center w-100 p-0 h-100 bring-forward primary">
                                 <div class="visible-hover position-absolute bring-forward top-0 right-0 col-12 col-md-6 flex-column justify-content-center align-items-center gap-3 product-action-list">
-                                    <i class="bi bi-eye shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-heart shwProfile" data-fetch="crossfit-jagun"></i>
-                                    <i class="bi bi-search shwProfile" data-fetch="crossfit-jagun"></i>
+                                    <i class="bi bi-eye shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-heart shwProfile" data-fetch="preview-product"></i>
+                                    <i class="bi bi-search shwProfile" data-fetch="preview-product"></i>
                                 </div>
                                 <div class="d-flex w-100 mini-card p-0 justify-content-center align-items-center overflow-hidden radius img-container">
                                     <img src="/assets/media-assets/img/self-balancing-hoverboard-in-a-pink-camouflage-pattern-600x800.jpeg" alt="">
@@ -1295,8 +1323,9 @@ error_reporting(E_ALL);
     </section>
 
 
-    <section class="accent d-flex pt-5 pb-5 overflow-hidden">
+    <section class="dark d-flex pt-5 pb-5 overflow-hidden">
         <div class="container"></div>
+        <?php include __DIR__ . '/../config/swirl-box.php' ?>
     </section>
     <?php include __DIR__ . '/../config/footer.php'; ?>
     <?php include __DIR__ . '/../config/mobile-menu.php'; ?>

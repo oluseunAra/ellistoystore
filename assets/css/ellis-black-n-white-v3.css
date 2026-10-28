@@ -33,7 +33,7 @@
   --off-color: #ffffff;
   --off-bg: #f6f6f6;
   --dark-color: #ffffff;
-  --dark-bg: linear-gradient(#181818, #282829 79.83%);
+  --dark-bg: #501c59;
   --elem-count: 3;
   --elem-height: 320px;
   --elem-width: 460px;
@@ -220,14 +220,10 @@
     rgba(0, 0, 0, 0)
   );
   --top-to-bottom-trans-bg: linear-gradient(
-    rgba(0, 0, 0, 1) 1.68%,
-    rgba(0, 0, 0, 0.73) 15.97%,
-    rgba(0, 0, 0, 0.46) 28.15%,
-    rgba(0, 0, 0, 0) 40.76%,
-    rgba(0, 0, 0, 0.02) 59.24%,
-    rgba(0, 0, 0, 0.1450980392156863) 70.59%,
-    rgba(0, 0, 0, 0.37) 80.67%,
-    rgba(0, 0, 0, 0.7)
+    rgba(0, 0, 0, 1) 4.62%,
+    rgba(0, 0, 0, 0.14) 17.65%,
+    rgba(0, 0, 0, 0) 52.1%,
+    rgba(0, 0, 0, 0.02)
   );
   --font-weight-light: 200;
   --font-weight-normal: 300;
@@ -2178,12 +2174,8 @@ header nav li:hover {
   margin: 0 auto;
 }
 
-header.primary,
-header.primary *,
-header.primary img.brandLogo {
-  /* color: var(--primary-color); */
-  filter: none;
-  -webkit-filter: none;
+header.primary {
+  border-bottom: 0.5px solid var(--trans-bg);
 }
 
 header .accent,
@@ -2244,6 +2236,10 @@ footer li {
 
 footer li a {
   font-size: var(--sm-font);
+}
+
+footer li a:hover {
+  background: none;
 }
 
 .tertiary a:hover,
@@ -3330,6 +3326,11 @@ header a:hover i.bi {
   color: var(--primary-bg);
   line-height: 1;
   display: flex;
+}
+
+header a.logo {
+  width: auto;
+  height: auto;
 }
 
 header .nav-lines-btn.menuBar:hover,
