@@ -34,7 +34,7 @@ error_reporting(E_ALL);
                             <div class="container d-flex flex-column h-100 justify-content-center align-items-center">
                                 <div class="d-flex w-100 h-100 flex-column justify-content-center align-items-center m-0">
                                     <div class="d-flex w-100 card-1 flex-column p-0 m-auto caption-container justify-content-end">
-                                        <div class="d-flex flex-column m-auto ms-0 mb-0 justify-content-center align-items-start p-3 trans-blur-bg full-radius gap-3">
+                                        <div class="d-flex flex-column m-auto ms-0 mb-0 justify-content-center align-items-start p-3 trans-blur-bg full-radius gap-1">
                                             <!-- <h3 class="display-4 text-start mb-0 fw-bolder">Fun just got better</h3> -->
                                             <p class="mb-0 text-start reg-font fw-bold">Get top quality toys for your kids now. We deliver nation wide.</p>
                                             <a href="#" class="btn primary m-auto mb-0 ms-0 fw-bold">Shop now</a>
@@ -61,7 +61,7 @@ error_reporting(E_ALL);
                             <div class="container d-flex flex-column h-100 justify-content-center align-items-center">
                                 <div class="d-flex w-100 h-100 flex-column justify-content-center align-items-center m-0">
                                     <div class="d-flex w-100 card-1 flex-column p-0 m-auto caption-container justify-content-end">
-                                        <div class="d-flex flex-column m-auto ms-0 mb-0 justify-content-center align-items-start p-3 trans-blur-bg full-radius gap-3">
+                                        <div class="d-flex flex-column m-auto ms-0 mb-0 justify-content-center align-items-start p-3 trans-blur-bg full-radius gap-1">
                                             <!--h3 class="display-4 text-start mb-0 fw-bolder">Fun just got better</h3-->
                                             <p class="mb-0 text-start reg-font fw-bold">Outdoors or Indoors, for fun or learning, we have it all!</p>
                                             <a href="#" class="btn primary m-auto mb-0 ms-0 fw-bold">Shop now</a>
@@ -89,7 +89,7 @@ error_reporting(E_ALL);
                             <div class="container d-flex flex-column h-100 justify-content-center align-items-start">
                                 <div class="d-flex w-100 h-100 flex-column justify-content-center align-items-center m-0">
                                     <div class="d-flex w-100 card-1 flex-column p-0 m-auto caption-container justify-content-end">
-                                        <div class="d-flex flex-column m-auto ms-0 mb-0 justify-content-center align-items-start p-3 trans-blur-bg full-radius gap-3">
+                                        <div class="d-flex flex-column m-auto ms-0 mb-0 justify-content-center align-items-start p-3 trans-blur-bg full-radius gap-1">
                                             <!--h3 class="display-4 text-start mb-0 fw-bolder">Fun just got better</h3-->
                                             <p class="mb-0 text-start reg-font fw-bold">Fun just got better.</p>
                                             <a href="#" class="btn primary m-auto mb-0 ms-0 fw-bold">Shop now</a>
