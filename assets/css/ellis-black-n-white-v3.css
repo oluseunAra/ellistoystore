@@ -5072,11 +5072,9 @@ div.cart-item .product-action-list {
 
   .hero-section .caption-container,
   section.hero-section .caption-container {
-    justify-content: center;
     position: relative;
-    left: 0;
     width: 100% !important;
-    padding: 2rem !important;
+    height: 100%;
   }
 
   .hero-section h1,
@@ -5228,13 +5226,6 @@ div.cart-item .product-action-list {
 
   .display-7 {
     font-size: calc(1rem + 1vw);
-  }
-
-  .hero-section img.full-radius,
-  .hero-section div.full-radius,
-  section.hero-section img.full-radius,
-  section.hero-section div.full-radius {
-    border-radius: 0rem !important;
   }
 
   .col_5by5 {
