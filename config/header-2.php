@@ -26,7 +26,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="d-none d-md-flex col-md-4 flex-row justify-content-center align-items-center">
+                <div class="d-none d-md-flex col-md-4 ps-5 pe-5 flex-row justify-content-center align-items-center">
                     <input type="search" name="quickSearch" id="quickSearch" class="search form-control m-auto full-radius">
                     <a href="#" class="p-0 fw-bold d-flex align-items-center marOff-45-start">
                         <i class="bi bi-search md-font"></i>
