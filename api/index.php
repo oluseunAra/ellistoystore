@@ -22,6 +22,7 @@ error_reporting(E_ALL);
 
 <body>
     <?php include __DIR__ . '/../config/header-2.php'; ?>
+
     <section class="hero-section landing-hero primary-gradient-blur-bg w-100 d-flex overflow-hidden webQ_ani" data-animate="scale-up-center">
         <div class="d-flex w-100 p-0 flex-row card-2 flex-wrap justify-content-start align-items-center bring-forward">
             <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -124,71 +125,6 @@ error_reporting(E_ALL);
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </div>
-    </section>
-    <section class="hero-section landing-hero primary-gradient-blur-bg w-100 d-flex overflow-hidden webQ_ani" data-animate="scale-up-center">
-        <div class="d-flex w-100 p-0 flex-row card-2 flex-wrap justify-content-start align-items-center bring-forward">
-            <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <!-- Carousel Inner -->
-                <div class="carousel-inner overflow-hidden p-1 pt-2 pb-2 p-sm-0">
-                    <!-- Slide 1: Ellis Toy Store -->
-                    <div class="carousel-item active overflow-hidden">
-                        <div class="d-flex flex-column w-100 m-auto ms-0 bring-forward justify-content-center align-items-center h-100 top-to-bottom-trans-bg">
-                            <div class="container d-flex flex-column h-100 justify-content-center align-items-center">
-                                <div class="d-flex col-12 col-md-8 h-100 justify-content-center align-items-center m-auto">
-                                    <div class="d-flex w-100 card-1 flex-column p-0 m-0 caption-container justify-content-end mt-5 pt-5">
-                                        <!--div class="d-flex flex-column m-auto mt-0 mb-0 justify-content-center align-items-center p-0 gap-3">
-                                            <h3 class="display-4 text-center mb-0 fw-bolder">Fun just got better</h3>
-                                            <p class="mb-0 text-center reg-font fw-bold">Outdoors or Indoors, for fun or learning, we have it all! <br /> Get top quality toys for your kids now. We deliver nation wide.</p>
-                                            <a href="#" class="btn primary m-auto mb-0 fw-bold">Shop now</a>
-                                        </div-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-column w-100 position-absolute top-0 right-0 send-backward m-auto justify-content-center align-items-center card-2 p-0">
-                            <picture class="w-100 h-100 object-fit-cover">
-                                <source media="(min-width: 770px)"
-                                    srcset="/assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif">
-                                <source media="(min-width: 451px)"
-                                    srcset="/assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif">
-                                <source media="(max-width: 450px)"
-                                    srcset="/assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif">
-                                <img src="/assets/media-assets/img/Ellis-toy-store-cars-and-bicycles.avif"
-                                    alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
-                            </picture>
-                        </div>
-                    </div>
-                    <!-- Slide 2: Ellis Toy Store -->
-                    <div class="carousel-item active overflow-hidden">
-                        <div class="d-flex flex-column w-100 m-auto ms-0 bring-forward justify-content-center align-items-center h-100 top-to-bottom-trans-bg">
-                            <div class="container d-flex flex-column h-100 justify-content-center align-items-center">
-                                <div class="d-flex col-12 col-md-8 h-100 justify-content-center align-items-center m-auto">
-                                    <div class="d-flex w-100 card-1 flex-column p-0 m-0 caption-container justify-content-end mt-5 pt-5">
-                                        <!--div class="d-flex flex-column m-auto mt-0 mb-0 justify-content-center align-items-center p-0 gap-3">
-                                            <h3 class="display-4 text-center mb-0 fw-bolder">Fun just got better</h3>
-                                            <p class="mb-0 text-center reg-font fw-bold">Outdoors or Indoors, for fun or learning, we have it all! <br /> Get top quality toys for your kids now. We deliver nation wide.</p>
-                                            <a href="#" class="btn primary m-auto mb-0 fw-bold">Shop now</a>
-                                        </div-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-column w-100 position-absolute top-0 right-0 send-backward m-auto justify-content-center align-items-center card-2 p-0">
-                            <picture class="w-100 h-100 object-fit-cover">
-                                <source media="(min-width: 770px)"
-                                    srcset="/assets/media-assets/img/fluffy.jpg">
-                                <source media="(min-width: 451px)"
-                                    srcset="/assets/media-assets/img/fluffy.jpg">
-                                <source media="(max-width: 450px)"
-                                    srcset="/assets/media-assets/img/fluffy.jpg">
-                                <img src="/assets/media-assets/img/fluffy.jpg"
-                                    alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
-                            </picture>
-                        </div>
-                    </div>
-                </div> <!-- carousel-inner -->
-            </div> <!-- heroCarousel -->
         </div>
     </section>
 
