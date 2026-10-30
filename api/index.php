@@ -21,8 +21,111 @@ error_reporting(E_ALL);
 </head>
 
 <body>
-    <?php include __DIR__ . '/../config/header.php'; ?>
+    <?php include __DIR__ . '/../config/header-2.php'; ?>
+    <section class="hero-section landing-hero primary-gradient-blur-bg w-100 d-flex overflow-hidden webQ_ani" data-animate="scale-up-center">
+        <div class="d-flex w-100 p-0 flex-row card-2 flex-wrap justify-content-start align-items-center bring-forward">
+            <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <!-- Carousel Inner -->
+                <div class="carousel-inner overflow-hidden p-1 pt-2 pb-2 p-sm-0">
+                    <!-- Slide 1: Ellis Toy Store -->
+                    <div class="carousel-item active overflow-hidden">
+                        <div class="d-flex flex-column w-100 m-auto ms-0 bring-forward justify-content-center align-items-center h-100 top-to-bottom-trans-bg">
+                            <div class="container d-flex flex-column h-100 justify-content-center align-items-center">
+                                <div class="d-flex w-100 h-100 flex-column justify-content-center align-items-center m-0">
+                                    <div class="d-flex w-100 card-1 flex-column p-0 m-auto caption-container justify-content-end">
+                                        <!-- <div class="d-flex flex-column m-auto ms-0 mb-0 justify-content-center align-items-start p-5 trans-blur-bg full-radius gap-3">
+                                            <h3 class="display-4 text-start mb-0 fw-bolder">Fun just got better</h3>
+                                            <p class="mb-0 text-start reg-font fw-bold">Outdoors or Indoors, for fun or learning, we have it all! <br /> Get top quality toys for your kids now. We deliver nation wide.</p>
+                                            <a href="#" class="btn primary m-auto mb-0 ms-0 fw-bold">Shop now</a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column w-100 position-absolute top-0 right-0 send-backward m-auto justify-content-center align-items-center card-2 p-0">
+                            <picture class="w-100 h-100 object-fit-cover">
+                                <source media="(min-width: 770px)"
+                                    srcset="/assets/media-assets/img/welcome_to_ellistoystore.jpg">
+                                <source media="(min-width: 451px)"
+                                    srcset="/assets/media-assets/img/welcome_to_ellistoystore.jpg">
+                                <source media="(max-width: 450px)"
+                                    srcset="/assets/media-assets/img/welcome_to_ellistoystore.jpg">
+                                <img src="/assets/media-assets/img/welcome_to_ellistoystore.jpg"
+                                    alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="carousel-item overflow-hidden">
+                        <div class="d-flex flex-column w-100 m-auto ms-0 bring-forward justify-content-center align-items-center h-100 top-to-bottom-trans-bg">
+                            <div class="container d-flex flex-column h-100 justify-content-center align-items-center">
+                                <div class="d-flex w-100 h-100 flex-column justify-content-center align-items-center m-0">
+                                    <div class="d-flex w-100 card-1 flex-column p-0 m-auto caption-container justify-content-end">
+                                        <div class="d-flex flex-column m-auto ms-0 mb-0 justify-content-center align-items-start p-5 trans-blur-bg full-radius gap-3">
+                                            <h3 class="display-4 text-start mb-0 fw-bolder">Fun just got better</h3>
+                                            <p class="mb-0 text-start reg-font fw-bold">Outdoors or Indoors, for fun or learning, we have it all! <br /> Get top quality toys for your kids now. We deliver nation wide.</p>
+                                            <a href="#" class="btn primary m-auto mb-0 ms-0 fw-bold">Shop now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column w-100 position-absolute top-0 right-0 send-backward m-auto justify-content-center align-items-center card-2 p-0">
+                            <picture class="w-100 h-100 object-fit-cover">
+                                <source media="(min-width: 770px)"
+                                    srcset="/assets/media-assets/img/ellistoystore.jpg">
+                                <source media="(min-width: 451px)"
+                                    srcset="/assets/media-assets/img/ellistoystore.jpg">
+                                <source media="(max-width: 450px)"
+                                    srcset="/assets/media-assets/img/ellistoystore.jpg">
+                                <img src="/assets/media-assets/img/ellistoystore.jpg"
+                                    alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
+                            </picture>
+                        </div>
+                    </div>
 
+                    <div class="carousel-item overflow-hidden">
+                        <div class="d-flex flex-column w-100 m-auto ms-0 bring-forward justify-content-center align-items-center h-100 top-to-bottom-trans-bg">
+                            <div class="container d-flex flex-column h-100 justify-content-center align-items-start">
+                                <div class="d-flex w-100 h-100 flex-column justify-content-center align-items-center m-0">
+                                    <div class="d-flex w-100 card-1 flex-column p-0 m-auto caption-container justify-content-end">
+                                        <div class="d-flex flex-column m-auto ms-0 mb-0 justify-content-center align-items-start p-5 trans-blur-bg full-radius gap-3">
+                                            <h3 class="display-4 text-start mb-0 fw-bolder">Fun just got better</h3>
+                                            <p class="mb-0 text-start reg-font fw-bold">Outdoors or Indoors, for fun or learning, we have it all! <br /> Get top quality toys for your kids now. We deliver nation wide.</p>
+                                            <a href="#" class="btn primary m-auto mb-0 ms-0 fw-bold">Shop now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column w-100 position-absolute top-0 right-0 send-backward m-auto justify-content-center align-items-center card-2 p-0">
+                            <picture class="w-100 h-100 object-fit-cover">
+                                <source media="(min-width: 770px)"
+                                    srcset="/assets/media-assets/img/ellistoystorebanner.jpg">
+                                <source media="(min-width: 451px)"
+                                    srcset="/assets/media-assets/img/ellistoystorebanner.jpg">
+                                <source media="(max-width: 450px)"
+                                    srcset="/assets/media-assets/img/ellistoystorebanner.jpg">
+                                <img src="/assets/media-assets/img/ellistoystorebanner.jpg"
+                                    alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
+                            </picture>
+                        </div>
+                    </div>
+                </div> <!-- carousel-inner -->
+            </div> <!-- heroCarousel -->
+            <div class="carousel-controls">
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <i class="bi bi-chevron-left carousel-control-prev-icon" aria-hidden="true"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <i class="bi bi-chevron-right carousel-control-next-icon" aria-hidden="true"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
     <section class="hero-section landing-hero primary-gradient-blur-bg w-100 d-flex overflow-hidden webQ_ani" data-animate="scale-up-center">
         <div class="d-flex w-100 p-0 flex-row card-2 flex-wrap justify-content-start align-items-center bring-forward">
             <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -1096,7 +1199,7 @@ error_reporting(E_ALL);
 
 
     <section class="d-flex pt-5 pb-5 flex-column">
-        <div class="container justify-content-center flex-column">
+        <div class="container justify-content-center flex-column mb-5">
             <div class="w-100 d-flex flex-column p-0 gap-5 full-radius pageSliderContainer">
                 <div class="d-flex flex-row flex-wrap justify-content-between align-items-start p-0 webQ_ani"
                     data-animate="scale-up-center">
