@@ -46,7 +46,7 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column w-100 position-absolute top-0 right-0 send-backward m-auto justify-content-center align-items-center card-2 p-0">
                             <picture class="w-100 h-100 object-fit-cover">
                                 <source media="(min-width: 770px)"
-                                    srcset="/assets/media-assets/img/welcome_to_ellistoystore.jpg">
+                                    srcset="/assets/media-assets/img/mobile-ellistoystore-welcome.jpg">
                                 <source media="(min-width: 451px)"
                                     srcset="/assets/media-assets/img/welcome_to_ellistoystore.jpg">
                                 <source media="(max-width: 450px)"
@@ -73,7 +73,7 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column w-100 position-absolute top-0 right-0 send-backward m-auto justify-content-center align-items-center card-2 p-0">
                             <picture class="w-100 h-100 object-fit-cover">
                                 <source media="(min-width: 770px)"
-                                    srcset="/assets/media-assets/img/ellistoystore.jpg">
+                                    srcset="/assets/media-assets/img/mobile-ellistoystore.jpg">
                                 <source media="(min-width: 451px)"
                                     srcset="/assets/media-assets/img/ellistoystore.jpg">
                                 <source media="(max-width: 450px)"
@@ -101,7 +101,7 @@ error_reporting(E_ALL);
                         <div class="d-flex flex-column w-100 position-absolute top-0 right-0 send-backward m-auto justify-content-center align-items-center card-2 p-0">
                             <picture class="w-100 h-100 object-fit-cover">
                                 <source media="(min-width: 770px)"
-                                    srcset="/assets/media-assets/img/ellistoystorebanner.jpg">
+                                    srcset="/assets/media-assets/img/mobile-ellistoystore-2">
                                 <source media="(min-width: 451px)"
                                     srcset="/assets/media-assets/img/ellistoystorebanner.jpg">
                                 <source media="(max-width: 450px)"
