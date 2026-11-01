@@ -105,7 +105,7 @@ error_reporting(E_ALL);
                                 <source media="(min-width: 451px)"
                                     srcset="/assets/media-assets/img/mobile-ellistoystore-2.jpg">
                                 <source media="(max-width: 450px)"
-                                    srcset="/assets/media-assets/img/ellistoystore-variety-mobile">
+                                    srcset="/assets/media-assets/img/ellistoystore-varieties-mobile.jpg">
                                 <img src="/assets/media-assets/img/ellistoystorebanner.jpg"
                                     alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
                             </picture>
