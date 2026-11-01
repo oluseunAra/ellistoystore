@@ -91,7 +91,7 @@ error_reporting(E_ALL);
                                     <div class="d-flex w-100 card-1 flex-column p-0 m-auto caption-container justify-content-end">
                                         <div class="d-flex flex-column m-auto ms-0 mb-5 mb-md-0 justify-content-center align-items-start gap-1 col-12 col-md-4">
                                             <!--h3 class="display-4 text-start mb-0 fw-bolder">Fun just got better</h3-->
-                                            <p class="mb-0 text-start reg-font fw-bold">Fun just got better.</p>
+                                            <p class="mb-0 text-start reg-font fw-bold">It's fun o'clock all day, non stop. Whatever it is, we've got it all</p>
                                             <a href="#" class="btn primary m-auto mb-0 ms-0 fw-bold">Shop now</a>
                                         </div>
                                     </div>
