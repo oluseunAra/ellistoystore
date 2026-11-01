@@ -5339,6 +5339,9 @@ div.cart-item .product-action-list {
   div.ellis-cart.active {
     right: 0%;
   }
+  section.hero-section .carousel p {
+    font-size: var(--md-font);
+  }
 }
 
 @media (max-width: 640px) {
