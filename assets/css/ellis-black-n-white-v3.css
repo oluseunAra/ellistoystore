@@ -5304,7 +5304,11 @@ div.cart-item .product-action-list {
 
   .hero-section.landing-hero button.carousel-control-next,
   .hero-section.landing-hero button.carousel-control-prev {
-    display: none !important;
+    width: 40px;
+    height: 40px;
+  }
+  section.hero-section .carousel-controls {
+    margin-bottom: 47px;
   }
 
   .profileModal {
