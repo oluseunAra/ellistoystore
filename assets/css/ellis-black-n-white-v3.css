@@ -2354,6 +2354,7 @@ section.hero .container,
   align-items: center;
   overflow: hidden;
   z-index: var(--send-backward);
+  width: 100%;
 }
 
 .background-container * {
