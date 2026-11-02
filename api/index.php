@@ -50,7 +50,7 @@ error_reporting(E_ALL);
                                 <source media="(min-width: 451px)"
                                     srcset="/assets/media-assets/img/mobile-ellistoystore-welcome.jpg">
                                 <source media="(max-width: 450px)"
-                                    srcset="/assets/media-assets/img/welcome-to-ellistoystore-mobile.jpg">
+                                    srcset="/assets/media-assets/img/welcome-portrait-mobile.jpg">
                                 <img src="/assets/media-assets/img/welcome_to_ellistoystore.jpg"
                                     alt="Ellis Toy Store" class="w-100 h-100 object-fit-cover">
                             </picture>
